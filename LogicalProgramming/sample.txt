@@ -1,0 +1,5 @@
+Names of character streams typically end with Reader/Writer and names of byte streams end with InputStream/OutputStream
+The streams used in example codes are unbuffered streams and less efficient. We typically use them with buffered readers/writers 
+for efficiency. We will soon be discussing use BufferedReader/BufferedWriter (for character stream) and BufferedInputStream/BufferedOutputStream 
+(for byte stream) classes.It is always recommended to close the stream if it is no longer in use. This ensures that the streams won’t be
+affected if any error occurs.The above codes may not run in online compilers as files may not exist.
